@@ -1,0 +1,84 @@
+@import "./reset.css";
+@import url('https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+:root
+{
+    --black-border: #FFCF8F
+}
+html, body
+{
+font-family:'Host Grotesk', sans-serif;
+}
+.container
+{
+    margin: 0 auto;
+    padding: 0 15px;
+    max-width: 1200px;
+}
+.nav
+{
+    padding: 20px  20px;
+    border-bottom: 2px salid #FFCF8F;
+    background-color:#000000;
+    color: #F5F5F5;
+}
+.nav-row
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 30px;
+    row-gap: 20px;
+    flex-wrap: wrap;
+}
+.logo
+{
+    color: #F5F5F5;
+    font-size: 24px;
+}
+.logo strong
+{
+    font-weight: 700;    
+}
+* {box-sizing: border-box;}
+form {
+  position: relative;
+  width: 300px;
+  margin: 0 auto;
+}
+input {
+  width: 100%;
+  height: 42px;
+  padding-left: 10px;
+  border: 2px solid #FFCF8F;
+  border-radius: 5px;
+  outline: none;
+  background: #F9F0DA;
+  color: #9E9C9C;
+}
+button {
+  position: absolute; 
+  top: 0;
+  right: 0px;
+  width: 42px;
+  height: 42px;
+  border: none;
+  background: #FFCF8F;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+button:before {
+  content: "\f002";
+  font-family: FontAwesome;
+  font-size: 16px;
+  color: #F9F0DA;
+}
+.header
+{
+    padding: 40px 0;
+    min-height: 900px ;
+    background-color: #EEEDEB;
+    text-align: center;
+
+}
